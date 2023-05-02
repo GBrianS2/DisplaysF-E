@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 0 0 20px 20px;
+    padding: 15px;
+    position: fixed;
+    background-color: rgba(190, 35, 35, 0.74);
+    box-shadow: 0px 3px 5px black;
+    transition: 0.4s;
+}
+
+a:hover {
+    background-color: rgb(110, 5, 5);
+}
