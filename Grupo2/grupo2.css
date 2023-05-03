@@ -4,20 +4,148 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: bold;
-    font-family: sans-serif;
-    font-size: 20px;
-    border-radius: 0 0 20px 20px;
-    padding: 15px;
-    position: fixed;
-    background-color: rgba(190, 35, 35, 0.74);
-    box-shadow: 0px 3px 5px black;
-    transition: 0.4s;
+#secao4 {
+    background-image: url(festajunina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-a:hover {
-    background-color: rgb(110, 5, 5);
+#secao4 .text-none #title-none {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#secao4 .text-none #prg-none {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#com-none{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#secao4 .text-none .miolo-none{
+    display: none;
+}
+#sem-none{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#no-none{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#secao5 {
+ background-image: url(milho.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+#secao5 .text-flex #title-flex {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#secao5 .text-flex #prg-flex {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#com-flex{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.miolo-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.item-flex {
+	border: 2px solid black;
+	padding: 10px;
+}
+
+#sem-flex{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.miolo-no-flex {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.item-no-flex {
+	display: table-cell;
+	border: 2px solid black;
+	padding: 10px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+#secao6 {
+    background-image: url(pamonha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+#secao6 .text-grid #title-grid {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#secao6 .text-grid #prg-grid {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-miolo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+#com-grid{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-item {
+    background-color: coral;
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+#sem-grid{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grid-no-miolo {
+    background-color: coral;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
 }
